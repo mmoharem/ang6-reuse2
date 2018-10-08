@@ -1,0 +1,29 @@
+.scroll-col {
+    text-align: center;
+
+    &--header {
+        height: 100px;
+        width: 100%;
+        background-color: #dbdbdb;
+        z-index: 5;
+        position: fixed;
+    }
+
+    &--banner {
+        width: 100%;
+        height: 500px;
+        position: fixed;
+        top: 100px;
+        color: #fff;
+        background-image: url('../../../assets/img/699bef4d49658e2e0d096ac69732e8e3ad25d62f.jpg');
+        background-size: cover;
+    }
+
+    &--content {
+        width: 100%;
+        height: 1500px;
+        position: relative;
+        top: 600px;
+        background: #ebebeb;
+    }
+}

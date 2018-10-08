@@ -1,0 +1,57 @@
+.main-cont {
+    color: white;
+    text-align: center;
+}
+
+.header {
+    width: 100;
+    height: 600px;
+    background-color: grey;
+}
+
+img {
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+}
+
+.wraper {  
+    // position: relative;
+    display: flex;
+}
+
+.back1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('../../../assets/code/img/old/back1.jpg');
+    &--inner {
+        position: relative;
+        background: rgba(76, 175, 80, 0.3);
+        width: 100%;
+        height: 400px;
+    }
+}
+.back2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('../../../assets/code/img/old/back2.jpg');
+    &--inner {
+        position: relative;
+    }
+}
+.back3 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('../../../assets/code/img/old/back3.jpg');
+}
+
+.footer {
+    width: 100;
+    height: 600px;
+    background-color: grey;
+}
