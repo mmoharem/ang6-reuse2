@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+declare var ScrollMagic: any;
+var controller = new ScrollMagic.Controller();
 
 @Component({
   selector: 'app-magic1',
