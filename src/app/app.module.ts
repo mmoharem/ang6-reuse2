@@ -17,11 +17,24 @@ import { MyScrllService } from "./my-comp/my-scrll/my-scrll.service";
 import { TestComponent } from './test/test.component';
 import { Myscrll1Component } from './test/myscrll1/myscrll1.component';
 
+//Code 1:
 import {ReactiveFormsModule, FormsModule} from '@angular/forms';
 import { Code1Component } from './test/code1/code1.component';
+import { Code1ServComponent } from './test/code1/code1-serv/code1-serv.component';
+import { Code1HeaderComponent } from './test/code1/code1-header/code1-header.component';
+import { Code1NavComponent } from './test/code1/code1-nav/code1-nav.component';
+import { Code1Rev1Component } from './test/code1/code1-rev1/code1-rev1.component';
+import { Code1FooterComponent } from './test/code1/code1-footer/code1-footer.component'
+
 import { Test2Component } from './test/test2/test2.component';
 import { CodepenScrl1Component } from './test/codepen-scrl1/codepen-scrl1.component';
-import { NikeScrll2Component } from './test/nike-scrll2/nike-scrll2.component'
+import { NikeScrll2Component } from './test/nike-scrll2/nike-scrll2.component';
+import { NikeScrll3Component } from './test/nike-scrll3/nike-scrll3.component';
+import { NikeScrll3Directive } from './test/nike-scrll3/nike-scrll3.directive';
+import { ScrollComponent } from './scroll/scroll.component';
+import { TiltJs1Component } from './scroll/tilt-js1/tilt-js1.component';
+import { ScmagicComponent } from './scroll/scmagic/scmagic.component';
+import { Magic1Component } from './scroll/scmagic/magic1/magic1.component';
 
 
 @NgModule({
@@ -39,6 +52,17 @@ import { NikeScrll2Component } from './test/nike-scrll2/nike-scrll2.component'
     Test2Component,
     CodepenScrl1Component,
     NikeScrll2Component,
+    NikeScrll3Component,
+    NikeScrll3Directive,
+    Code1ServComponent,
+    Code1HeaderComponent,
+    Code1NavComponent,
+    Code1Rev1Component,
+    Code1FooterComponent,
+    ScrollComponent,
+    TiltJs1Component,
+    ScmagicComponent,
+    Magic1Component,
 
   ],
   imports: [
