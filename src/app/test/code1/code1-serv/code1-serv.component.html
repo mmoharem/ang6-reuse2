@@ -1,9 +1,10 @@
 <div class="main-cont">
-    <div class="header">
+    <!-- <div class="header">
   
-    </div>
+    </div> -->
   
-    <div class="back back1">
+    <div class="back back1"
+    >
       <div class="back1--iner">
         <div class="back1--content">
           <div class="back1--text">
@@ -20,7 +21,16 @@
               advanced, custom and open source solutions which will propel your business to the next level.
             </span>
           </div>
-          <div class="back1--img">
+          <!-- <div class="back1--img"
+          BScroll1 
+          addClass="back1--img_show"
+          > -->
+          <div class="back1--img"
+          
+          appAnimate1
+          [classT]="'showL'"
+          [classT2]="'hideL'"
+          >
             <img src="../../../../assets/code1/img/old/2221.png" alt="">
           </div>
   
@@ -29,7 +39,8 @@
     </div>
   
   
-    <div class="back back2">
+    <div class="back back2"
+    >
       <div class="back2--iner">
         <div class="back2--content">
           <div class="back2--text">
@@ -45,7 +56,11 @@
               more visitors into loyal customers. Let us build your online store and see your sales multiply.
             </span>
           </div>
-          <div class="back2--img">
+          <div class="back2--img"
+          appAnimate1
+          [classT]="'showR'"
+          [classT2]="'hideR'"
+          >
             <img src="../../../../assets/code1/img/old/banner_header2.png" alt="">
           </div>
         </div>
@@ -53,7 +68,9 @@
     </div>
   
   
-    <div class="back back3">
+    <div class="back back3"
+    (click)="onClick()"
+    >
       <div class="back3--iner">
         <div class="back3--content">
           <div class="back3--text">
@@ -69,7 +86,14 @@
               impress potential customers who visit your site on their mobile devices.
             </span>
           </div>
-          <div class="back3--img">
+          <!-- <div class="back3--img"
+          [@scrollReveal]="isHidden ? 'hide' : 'show'"
+          > -->
+          <div class="back3--img"
+          appAnimate1
+          [classT]="'showL'"
+          [classT2]="'hideL'"
+          >
             <img src="../../../../assets/code1/img/old/6661.png" alt="">
           </div>
   
