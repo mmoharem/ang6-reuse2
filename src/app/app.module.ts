@@ -46,6 +46,8 @@ import { Animate1Directive } from './test/code1/shared/directives/animate1.direc
 import { Skroller1Component } from './scroll/skrollr/skroller1/skroller1.component';
 import { Skroller2Component } from './scroll/skrollr/skroller2/skroller2.component';
 import { Cod1AboutComponent } from './test/code1/cod1-about/cod1-about.component';
+import { UsatodayComponent } from './usatoday/usatoday.component';
+import { Shap1Component } from './usatoday/shap1/shap1.component';
 
 
 @NgModule({
@@ -85,6 +87,8 @@ import { Cod1AboutComponent } from './test/code1/cod1-about/cod1-about.component
     Skroller1Component,
     Skroller2Component,
     Cod1AboutComponent,
+    UsatodayComponent,
+    Shap1Component,
 
   ],
   imports: [

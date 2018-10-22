@@ -21,8 +21,14 @@ export class Animate1Directive implements OnInit {
   // @Output()
   @Input('classT') classTrigger;
   @Input('classT2') classTrigger2;
+  @Input('animation') animation: string;
   @HostBinding('@scrollRevealR') animationTriggerR = 'hideR'; 
-  @HostBinding('@scrollRevealL') animationTriggerL = 'hideL'; 
+  @HostBinding('@scrollRevealL') animationTriggerL = 'hideL';
+  // if(animation){
+  //   console.log('animation');
+  // } 
+ 
+  
   @HostBinding('style.transform') transform;
   
 
@@ -33,6 +39,8 @@ export class Animate1Directive implements OnInit {
     // console.log(this.elRef.nativeElement.parentNode.parentNode.parentNode);
     // console.log(this.el);
     // this.elRef.nativeElement.parentNode.parentNode.parentNode.addEventListener("click", this.myFunction.bind(this));
+    console.log(this.animation);
+    
   }
 
   addClass(el) {
